@@ -1,4 +1,5 @@
 ====== 搭建Keepalived+Nginx的高可用集群 ======
+
 环境: 
   * 虚拟机软件:VirtualBox
   * 宿主机系统:Windows 10
@@ -15,12 +16,14 @@
   * nginx_pid.sh
 
 ==== 安装Linux ====
+
   * 其他发行版本也行，不区分32、64位，本例中为节省系统资源选用32位
   * 无需桌面程序，SSH接入
   * 须root账户或sudoers
   * 固定IP
 
 ==== 安装Nginx ====
+
 //编译环境准备//
   yum -y install gcc pcre pcre-devel zlib zlib-devel openssl openssl-devel
 //解压nginx源码//
